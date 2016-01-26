@@ -1,0 +1,119 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\My project\LoginWithMySQL\Client_side\RDIAS\RDIAS\RDIAS
+     -                                                    
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Attempt 4\
+* Attempt 4\.idea\
+* Attempt 4\.idea\.name
+* Attempt 4\.idea\compiler.xml
+* Attempt 4\.idea\copyright\
+* Attempt 4\.idea\copyright\profiles_settings.xml
+* Attempt 4\.idea\misc.xml
+* Attempt 4\.idea\modules.xml
+* Attempt 4\.idea\vcs.xml
+* Attempt 4\.idea\workspace.xml
+* Attempt 4\Attempt 4.iml
+* RDIAS\
+* RDIAS\.idea\
+* RDIAS\.idea\.name
+* RDIAS\.idea\compiler.xml
+* RDIAS\.idea\copyright\
+* RDIAS\.idea\copyright\profiles_settings.xml
+* RDIAS\.idea\misc.xml
+* RDIAS\.idea\modules.xml
+* RDIAS\.idea\vcs.xml
+* RDIAS\.idea\workspace.xml
+* RDIAS\app\
+* RDIAS\app\build.gradle
+* RDIAS\app\src\
+* RDIAS\app\src\main\
+* RDIAS\app\src\main\AndroidManifest.xml
+* RDIAS\app\src\main\java\
+* RDIAS\app\src\main\java\com\
+* RDIAS\app\src\main\java\com\example\
+* RDIAS\app\src\main\java\com\example\phonebook\
+* RDIAS\app\src\main\java\com\example\phonebook\About.java
+* RDIAS\app\src\main\java\com\example\phonebook\JSONParser.java
+* RDIAS\app\src\main\java\com\example\phonebook\MainActivity.java
+* RDIAS\app\src\main\java\com\example\phonebook\Signin.java
+* RDIAS\app\src\main\java\com\example\phonebook\Welcome.java
+* RDIAS\app\src\main\res\
+* RDIAS\app\src\main\res\drawable-hdpi\
+* RDIAS\app\src\main\res\drawable-hdpi\ic_launcher.png
+* RDIAS\app\src\main\res\drawable\
+* RDIAS\app\src\main\res\drawable\bg_row.xml
+* RDIAS\app\src\main\res\layout\
+* RDIAS\app\src\main\res\layout\about.xml
+* RDIAS\app\src\main\res\layout\activity_main.xml
+* RDIAS\app\src\main\res\layout\signin.xml
+* RDIAS\app\src\main\res\layout\welcome.xml
+* RDIAS\app\src\main\res\menu\
+* RDIAS\app\src\main\res\menu\main.xml
+* RDIAS\app\src\main\res\values\
+* RDIAS\app\src\main\res\values\color.xml
+* RDIAS\app\src\main\res\values\dimens.xml
+* RDIAS\app\src\main\res\values\strings.xml
+* RDIAS\app\src\main\res\values\styles.xml
+* RDIAS\build.gradle
+* RDIAS\gradle\
+* RDIAS\gradle\wrapper\
+* RDIAS\gradle\wrapper\gradle-wrapper.jar
+* RDIAS\gradle\wrapper\gradle-wrapper.properties
+* RDIAS\gradlew
+* RDIAS\gradlew.bat
+* RDIAS\local.properties
+* RDIAS\settings.gradle
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* bin\AppNo3\ic_launcher.PNG => ic_launcher.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
